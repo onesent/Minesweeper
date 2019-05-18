@@ -519,7 +519,7 @@ return 1;
 
 
 
-int makeclear()
+int Makeclear()
 {
   int i,j,temp1,temp2,flag=0;
   temp1=totalunknown; //剩下的未知板块数
@@ -603,7 +603,7 @@ int clearall()
    else
    {
       
-      if(makeclear()==1)  return 1;
+      if(Makeclear()==1)  return 1;
    }
 
    return 0;
